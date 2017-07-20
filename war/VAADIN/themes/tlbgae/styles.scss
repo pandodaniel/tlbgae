@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "tlbgae.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in tlbgae.scss */
+.tlbgae {
+  @include addons;
+  @include tlbgae;
+}
